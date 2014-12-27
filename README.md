@@ -1,4 +1,4 @@
-PHP TinyWebDB script to MIT App Inventor 2
+PHP TinyWebDB Script for MIT App Inventor 2
 ====================
 Developed by Shaolin Zhang, at Shanghai World Foreign Language Middle School.
 Submit issues on GitHub or send email with logs to shaolin@shaolinzhang.com, I'll look into it.
@@ -20,3 +20,7 @@ CREATE TABLE IF NOT EXISTS `test` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 Replace 'test' to any name you want to call the table.
+
+ACKNOWLEDGEMENT
+===================
+Special thanks to WEIHUA LI at MIT CML.
