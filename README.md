@@ -1,6 +1,7 @@
 PHP TinyWebDB script to MIT App Inventor 2
 ====================
-Developed by Shaolin Zhang, at Shanghai World Foreign Language Middle School
+Developed by Shaolin Zhang, at Shanghai World Foreign Language Middle School.
+Submit issues on GitHub or send email with logs to shaolin@shaolinzhang.com, I'll look into it.
 
 USAGE:
 ===================
