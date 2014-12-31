@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `test` (
 PRIMARY KEY (`tag`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-Set ServiceURL in App Inventor, TinyWebDB compoent to
+Set ServiceURL in App Inventor, TinyWebDB component to
 http://<HOST NAME>/TinyWebDB_Service.php/
 
 Set the following parameters according to your own MySQL information:
@@ -42,3 +42,7 @@ Congratulations! The database is up and running!
 ACKNOWLEDGEMENT
 ===================
 Special thanks to WEIHUA LI at MIT CML.
+
+LICENSE
+===================
+This file is released under MIT License.
