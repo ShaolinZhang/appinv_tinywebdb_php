@@ -20,9 +20,13 @@ http://<HOST NAME>/TinyWebDB_Service.php/
 
 Set the following parameters according to your own MySQL information:
 $MYSQL_HOST_ADDR = SAE_MYSQL_HOST_M; // Server Address or IP 
+
 $MYSQL_HOST_PORT = SAE_MYSQL_PORT; // Server Port 
+
 $MYSQL_USERNAME = SAE_MYSQL_USER; // Database Username 
+
 $MYSQL_PASSWORD = SAE_MYSQL_PASS; // Database Password 
+
 $MYSQL_DBNAME = SAE_MYSQL_DB; // Database Name
 
 Set table name according to the SQL Query to create table:
