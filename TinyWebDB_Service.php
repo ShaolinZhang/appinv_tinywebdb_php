@@ -4,7 +4,7 @@
  * The TinyWebDB component communicates with a Web service to store
  * and retrieve information.
  * 
- * This particular script is written by Shaolin Zhang as a replacement
+ * This particular script is written by 张劭麟 as a replacement
  * of GAE version TinyWebDB http://appinvtinywebdb.appspot.com/ .
  *
  * Prerequisites:
