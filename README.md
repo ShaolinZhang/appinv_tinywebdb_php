@@ -3,23 +3,37 @@ PHP TinyWebDB Script for MIT App Inventor 2
 Developed by Shaolin Zhang, at Shanghai World Foreign Language Middle School.
 Submit issues on GitHub or send email with logs to shaolin@shaolinzhang.com, I'll look into it.
 
+For more information and user manual, please access http://www.shaolinzhang.com/php-tinywebdb-service/
+
 USAGE:
 ===================
-Replace SAE_MYSQL_HOST_M with your Main Database Host Name
-Replace SAE_MYSQL_PORT with your Database Connection Port
-Replace SAE_MYSQL_USER with your Database Username
-Replace SAE_MYSQL_PASS with your Database Password
-Replace SAE_MYSQL_DB with your Database Name
-
-Initialize a table in your database using the following SQL code:
-
+Customize the table name:
+Replace ‘test’ with any name you want for data to store in, then execute the code.
 CREATE TABLE IF NOT EXISTS `test` (
- `tag` varchar (32) NOT NULL,
- `value` varchar (255) NOT NULL,
- PRIMARY KEY (`tag`)
+`tag` varchar (32) NOT NULL,
+`value` varchar (255) NOT NULL,
+PRIMARY KEY (`tag`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-Replace 'test' to any name you want to call the table.
+Set ServiceURL in App Inventor, TinyWebDB compoent to
+http://<HOST NAME>/TinyWebDB_Service.php/
+
+Set the following parameters according to your own MySQL information:
+$MYSQL_HOST_ADDR = SAE_MYSQL_HOST_M; // Server Address or IP 
+$MYSQL_HOST_PORT = SAE_MYSQL_PORT; // Server Port 
+$MYSQL_USERNAME = SAE_MYSQL_USER; // Database Username 
+$MYSQL_PASSWORD = SAE_MYSQL_PASS; // Database Password 
+$MYSQL_DBNAME = SAE_MYSQL_DB; // Database Name
+
+Set table name according to the SQL Query to create table:
+$DATA_TABLE_NAME = test; // Set table name
+
+After all these steps, open your browser and access
+http://<HOST NAME>/TinyWebDB_Service.php/getvalue, if there’s something like:
+
+["VALUE","",""]
+
+Congratulations! The database is up and running!
 
 ACKNOWLEDGEMENT
 ===================
